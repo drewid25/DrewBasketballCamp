@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
         integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
@@ -25,37 +27,174 @@
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>Document</title>
 </head>
-<body>
-      <nav class="navbar navbar-expand-lg main py-3">
-            <div class="container ">
-                <a href="index.html" class="navbar-brand  text-dark-gray  fw-bold">
-                    <i class="fa-solid fa-basketball"></i> DrewBasketball Camp</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav d-md-flex ms-auto">
-                        <li class="nav-item ">
-                            <a href="about.html" class="nav-link navigation-link">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link navigation-link">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="programs.html" class="nav-link navigation-link nav-programs">PROGRAMS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="testimonial.html" class="nav-link navigation-link">TESTIMONIALS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" class="nav-link navigation-link">LOGIN</a>
-                        </li>
 
-                        <li class="nav-item nav-green bg-danger active-link">
-                            <a href="registration.html" class="nav-link fw-bold  text-white ">REGISTER</a>
+<body>
+    <nav class="navbar navbar-expand-lg main py-3">
+        <div class="container ">
+            <a href="index.html" class="navbar-brand  text-dark-gray  fw-bold">
+                <i class="fa-solid fa-basketball"></i> DrewBasketball Camp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav d-md-flex ms-auto">
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link navigation-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link navigation-link">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown nav-programs">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PROGRAMS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#kids">Kid's Camp</a></li>
+                            <li><a class="dropdown-item" href="#teens">Teen's Camp</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#adult">Adult's Camp</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="testimonial.html" class="nav-link navigation-link">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link navigation-link">LOGIN</a>
+                    </li>
+
+                    <li class="nav-item nav-green bg-danger active-link">
+                        <a href="registration.html" class="nav-link fw-bold  text-white ">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <section  id="kids" class="Form  mx-4">
+        <div class="container p-5  position-relative">
+            <div class="row log-in-row no-gutters">
+                <div class="col-lg-5 p-0">
+                    <img src="images/boys-running-with-ball.jpg" class="img-fluid" alt="boys-running-with-ball">
+                </div>
+                <div class="col-lg-7 px-5 p-5 p">
+
+                    <h2 class="fw-bold">KID'S TRAINING CAMP</h2>
+                    <p class="text-danger fw-bold">Ages:(8-12 yrs old)</p>
+                    <P>Start them young!<br>
+                        Here in our training camp, we teaches young aspirant players the fundamentals of basketball.
+                        They will learn the basics and advance techniques to improve their Basketball skills. </P>
+                    <h5>Skills Training:</h5>
+
+                    <ul class="skills-training">
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 1: Dribbling Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 2: Shooting Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 3: Fastbreak Finishing Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 4: Rebounding Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 4: Rebounding Drills
                         </li>
                     </ul>
+
+                    <p class="fw-bold"><span class="fa fa-calendar calendar-span"></span>Training starts on June 15,2022
+                    </p>
+                    <a class="btn btn-danger fw-bold" href="registration.html">Register Now</a>
+                    
                 </div>
             </div>
+        </div>
+    </section>
+    <section  id="teens" class="Form  mx-4 ">
+        <div class="container p-5">
+            <div class="row log-in-row no-gutters">
+                <div class="col-lg-5 p-0">
+                    <img src="images/teen.jpeg" class="img-fluid" alt="boys-running-with-ball">
+                </div>
+                <div class="col-lg-7 px-5 p-5 p">
 
-        </nav>
+                    <h2 class="fw-bold">TEEN'S TRAINING CAMP</h2>
+                    <p class="text-danger fw-bold">Ages:(13-18 yrs old)</p>
+                    <P>Start them young!<br>
+                        Here in our training camp, we teaches young aspirant players the fundamentals of basketball.
+                        They will learn the basics and advance techniques to improve their Basketball skills. </P>
+                    <h5>Skills Training:</h5>
+
+                    <ul class="skills-training">
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 1: Dribbling Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 2: Shooting Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 3: Fastbreak Finishing Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 4: Rebounding Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 4: Rebounding Drills
+                        </li>
+                    </ul>
+
+                    <p class="fw-bold"><span class="fa fa-calendar calendar-span"></span>Training starts on June 15,2022
+                    </p>
+                    <a class="btn btn-danger fw-bold" href="registration.html">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  id="adult" class="Form mx-4 ">
+        <div class="container p-5 ">
+            <div class="row log-in-row no-gutters">
+                <div class="col-lg-5 p-0">
+                    <img src="images/adult.jpg" class="img-fluid" alt="boys-running-with-ball">
+                </div>
+                <div class="col-lg-7 px-5 p-5 p">
+
+                    <h2 class="fw-bold">ADULT'S TRAINING CAMP</h2>
+                    <p class="text-danger fw-bold">Ages:(19-above)</p>
+                    <P>Start them young!<br>
+                        Here in our training camp, we teaches young aspirant players the fundamentals of basketball.
+                        They will learn the basics and advance techniques to improve their Basketball skills. </P>
+                    <h5>Skills Training:</h5>
+
+                    <ul class="skills-training">
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 1: Dribbling Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 2: Shooting Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 3: Fastbreak Finishing Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 4: Rebounding Drills
+                        </li>
+                        <li>
+                            <span class="fa fa-basketball text-danger"></span> Day 4: Rebounding Drills
+                        </li>
+                    </ul>
+ 
+                    <p class="fw-bold"><span class="fa fa-calendar calendar-span"></span>Training starts on June 15,2022
+                    </p>
+                    <a class="btn btn-danger fw-bold" href="registration.html">Register Now</a>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
