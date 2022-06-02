@@ -173,3 +173,16 @@ footer {
 .nav-login {
     border-bottom: 2px solid #dc3545;
 }
+
+/* kids Program */
+.skills-training{
+    list-style: none;
+}
+.kids-program span{
+    margin-right:.5rem;
+}
+
+.calendar-span{
+    font-size: 1rem;
+    margin-right:.5rem
+}
