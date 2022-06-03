@@ -2,7 +2,7 @@ body {
     font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1 {
+.hero-title {
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.5;
@@ -138,23 +138,19 @@ footer {
 
 }
 
-.register-row,
-.about-us {
-    box-shadow: 12px 12px 22px grey;
-    border-radius: 30px;
-    background-color: #FAF5EF;
 
-}
 
-/* about.html */
+
+/*navlink Underline Border  */
 .nav-about,
 .nav-contact,
 .nav-login,
 .nav-programs,
-.nav-testimonials {
+.nav-home
+ {
     border-bottom: 2px solid #dc3545;
 }
-
+/* navlink on hover */
 .navbar-brand:hover,
 .nav-link:hover,
 .nav-about:hover,
@@ -164,15 +160,7 @@ footer {
 }
 
 
-/* contact.html */
-.nav-contact {
-    border-bottom: 2px solid #dc3545;
-}
 
-/* login.html */
-.nav-login {
-    border-bottom: 2px solid #dc3545;
-}
 
 /* kids Program */
 .skills-training{
@@ -186,3 +174,76 @@ footer {
     font-size: 1rem;
     margin-right:.5rem
 }
+
+
+/* About us */
+.about-us h1{
+    font-size: 3rem;
+}
+@media only screen and (max-width:768px){
+    .about-us h1{
+    font-size: 2rem;
+}
+.about-us img{
+     width:200px;
+     height:150px;
+}
+
+}
+
+@media only screen and (max-width:375px){
+    .about-us h1{
+    font-size: 1rem;
+}
+.about-us img{
+     width:150px;
+     height:100px;
+}
+.about-us{
+    text-align: center;
+}
+}
+.about-us,.sidebar,.register,.contact-us {
+    box-shadow: 12px 12px 22px grey;
+    border-radius: 30px;
+    background-color: #FAF5EF;
+
+}
+
+.about-us img{
+    width:200px;
+    height:250px;
+}
+
+@media only screen and (max-width:375px){
+    .sidebar{
+    flex-direction: column;
+}}
+
+
+.contact-us{
+    margin:0 auto;
+    width:50rem;
+    padding:5rem;
+}
+@media only screen and (max-width:768px){
+    .contact-us{
+     width:40rem;
+     padding:3rem;
+
+}}
+@media only screen and (max-width:375px){
+    .contact-us{
+     width:15rem;
+     padding:3rem;
+    
+ 
+
+}
+.content-center{
+    text-align: center;
+}
+.contact-footer{
+    display:none;
+}}
+
