@@ -24,15 +24,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/program.css">
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="./CSS/mediaqueries.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>DBC</title>
     <link rel="icon" type="image/png" href="images/Basketaball-logo.png">
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg main py-3">
-        <div class="container ">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg main p-3">
+        <div class="container-fluid  ">
             <a href="#" class="navbar-brand  text-danger fw-bold">
                 <i class="fa-solid fa-basketball"></i> DrewBasketball Camp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
@@ -40,13 +46,13 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav d-md-flex ms-auto">
                     <li class="nav-item ">
-                        <a href="index.html" class="nav-link navigation-link  nav-home">HOME</a>
+                        <a href="index.html" class="nav-link  nav-border">HOME</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="about.html" class="nav-link navigation-link">ABOUT</a>
+                        <a href="about.html" class="nav-link">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link navigation-link">CONTACT</a>
+                        <a href="contact.html" class="nav-link">CONTACT</a>
                     </li>
                     <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -78,12 +84,12 @@
     </nav>
 
     <!-- hero Section -->
-    <section class="px-2 text-center hero main ">
-        <div class="container ">
+    <section class="px-2 hero main p-3 mb-3" id="hero-section">
+        <div class="container-fluid text-center px-5   ">
             <div class="row align-items-center justify-content-between ">
-                <div
-                    class="col-sm-12 col-md-12 col-xl-6 mt-3 mt-lg-5  text-sm-start text-lg-start text-md-center text-lg-left ">
-                    <h1 class="mb-3 hero-title fw-bold">Become an <span class="text-danger">Elite Basketball Athlete</span> in
+                <div class="col-md-12 col-xl-6 mt-3 mt-lg-5  text-sm-start text-lg-start text-md-center text-lg-left ">
+                    <h1 class="mb-3 hero-title fw-bold">Become an <span class="text-danger">Elite Basketball
+                            Athlete</span> in
                         town.</h1>
                     <p class="lead my-4">We are teaching the latest basketball techniques from fundamentals to advance,
                         transforming student to become one of the elite in the industry.</p>
@@ -91,61 +97,55 @@
                         player prospect.
 
                     </p>
-                    <p class="lead my-4">
+                    <p class="lead my-4 mb-5">
                         So what are you waiting for? Train with us and be the next Superstar!
                     </p>
-                    <a class="btn btn-lg btn-danger fw-bold " href="registration.html">REGISTER NOW</a>
+                    <a class="btn btn-lg btn-danger fw-bold hero-btn mb-5 " href="registration.html">REGISTER NOW</a>
                 </div>
                 <div
-                    class="col-sm-12 col-md-12 col-xl-6 ml-auto mr-auto mt-3 mt-lg-5 d-block text-center text-md-center text-lg-left p-md-5">
+                    class="col-md-12 col-xl-6 ml-auto mr-auto mt-3 mt-lg-5 d-block text-center text-md-center text-lg-left p-md-5">
                     <img class="img-fluid d-none d-sm-block"
                         src="images/Nike_Basketball_2018_BBall_Camp_Action_HR-15.jpg" alt="kids-camp">
                 </div>
-
-
-
             </div>
-         <button>drew</button>
+
         </div>
     </section>
-
-
-
-
-
-
     <!-- Programs section -->
-    <section class="p-2">
-        <div class="container p-5">
-            <h2 class="text-center ">Our Programs</h2>
+    <section class="p-5">
+        <div class="container ">
+            <h2 class="text-center mb-3 fw-bold">Our Programs</h2>
             <div class="row  g-3 mt-5">
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card review">
                         <img class="img-fluid" src="images/Nike_Basketball_2018_BBall_Camp_Action_HR-15.jpg"
                             alt="kidsbasketball-img">
                         <div class="card-body">
-
                             <h5 class="card-title text-center fw-bold">Kid's Camp</h5>
                             <p class="card-text text-center">(For kids ages 8-12)</p>
                             <div class="text-center justify-content-center ">
-                               <a class="btn btn-large border-danger fw-bold mb-3 w-100" href="programs.html #kids">View Details</a>
-                                <a class="btn btn-large bg-danger text-light fw-bold mb-3 w-100" href="registration.html">Enroll Now</a>
+                                <a class="btn btn-large border-danger fw-bold mb-3 w-100"
+                                    href="programs.html #kids">View Details</a>
+                                <a class="btn btn-large bg-danger text-light fw-bold mb-3 w-100"
+                                    href="registration.html">Enroll Now</a>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card">
                         <img class="img-fluid" src="images/teens-camp.jpg" alt="teenbasketball-img">
                         <div class="card-body">
 
                             <h5 class="card-title text-center">Teen's Camp</h5>
                             <p class="card-text text-center">(For teens ages 13-18)</p>
-                            
+
                             <div class="text-center justify-content-center">
-                                <a class="btn btn-large border-danger fw-bold mb-3 w-100" href="programs.html #teens">View Details</a>
-                                <a class="btn btn-large bg-danger text-light fw-bold mb-3 w-100" href="registration.html">Enroll Now</a>
+                                <a class="btn btn-large border-danger fw-bold mb-3 w-100"
+                                    href="programs.html #teens">View Details</a>
+                                <a class="btn btn-large bg-danger text-light fw-bold mb-3 w-100"
+                                    href="registration.html">Enroll Now</a>
                             </div>
 
                         </div>
@@ -153,16 +153,18 @@
 
 
                 </div>
-                <div class=" col-sm-12 col-md col-lg-4">
+                <div class="col-md col-lg-4">
                     <div class="card">
                         <img class="img-fluid" src="images/Clinic-pics-2.jpg" alt="">
                         <div class="card-body">
 
-                           <h5 class="card-title text-center">Adult's Camp</h5>
+                            <h5 class="card-title text-center">Adult's Camp</h5>
                             <p class="card-text text-center">(For adults ages 19-above)</p>
                             <div class="text-center justify-content-center">
-                                <a class="btn btn-large border-danger w-100 fw-bold mb-3" href="programs.html #adult">View Details</a>
-                                <a class="btn btn-large bg-danger text-light w-100 fw-bold mb-3" href="registration.html">Enroll Now</a>
+                                <a class="btn btn-large border-danger w-100 fw-bold mb-3"
+                                    href="programs.html #adult">View Details</a>
+                                <a class="btn btn-large bg-danger text-light w-100 fw-bold mb-3"
+                                    href="registration.html">Enroll Now</a>
                             </div>
                         </div>
                     </div>
@@ -173,7 +175,7 @@
         </div>
     </section>
     <!-- Learn Sections -->
-    <section id="learn" class="p-5">
+    <section id="learn" class="p-5 ">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md">
@@ -181,16 +183,21 @@
                 </div>
                 <div class="col-md p5">
                     <h2 class="mb-3 mt-5 mt-md-0 text-danger fw-bold">Learn The Fundamentals</h2>
-                    <p class="lead my-4">Learning the basics of basketball never gets old. You learn the fundamentals and apply it to your game. </p>
-                    <p class="lead my-4">When you sticks to your routine on learning basketball fundamentals like basic dribbling, shooting-form and basic defense. If you practice it regularly will notice a drastic improvement on your game. </p>
-                    <p class="lead my-4">Here in our camp will teach you all the fundamentals of Basketball</p>   
+                    <p class="lead my-4">Learning the basics of basketball never gets old. You learn the fundamentals
+                        and apply it to your game. </p>
+                    <p class="lead my-4">When you sticks to your routine on learning basketball fundamentals like basic
+                        dribbling, shooting-form and basic defense. If you practice it regularly will notice a drastic
+                        improvement on your game. </p>
+                    <p class="lead my-4">Here in our camp will teach you all the fundamentals of Basketball</p>
                     <p class="lead">DrewBasketball Camp Benefits:</p>
                     <ul class="training-skills">
                         <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Improve Game Control</li>
                         <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Learn wide range of skills</li>
                         <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Basic to advance techniques</li>
-                        <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Experience professional coaching styles from seassoned trainer</li>
-                        <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Opportunity to get scouted to play for different professional basketball leauge in the philippines</li>
+                        <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Experience professional coaching
+                            styles from seassoned trainer</li>
+                        <li><i class="fa-solid fa-basketball text-danger mx-2"></i>Opportunity to get scouted to play
+                            for different professional basketball leauge in the philippines</li>
                     </ul>
                 </div>
 
@@ -198,7 +205,7 @@
         </div>
     </section>
     <!-- FAQ -->
-    <section class="p5 mt-5 ">
+    <section class="p-5 mt-3 ">
         <div class="container text-center mb-5">
             <h3 class="mb-5 fw-bold text-danger">FREQUENTLY ASKED QUESTION</h3>
             <div class="accordion accordion-flush" id="accordionFlushExample">

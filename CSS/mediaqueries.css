@@ -1,0 +1,53 @@
+/* Media queries at max-width 375px */
+
+@media only screen and (max-width:375px){
+   .contact-us{
+    padding:0 auto;
+   }
+ 
+
+
+}
+@media only screen and (max-width:768px){
+  
+}
+
+@media only screen and (min-width:769px) {
+ 
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .about-title {
+        font-size: 3rem;
+    }
+
+    .about-us img {
+        width: 200px;
+        height: 250px;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .about-us img {
+        width: 250px;
+        height: 250px;
+    }
+
+    section {
+        height: 100vh;
+        
+    }
+    #hero-section{
+        padding-bottom:5rem;
+    }
+    .hero-btn{
+        margin-bottom: 5rem;;
+    }
+
+}

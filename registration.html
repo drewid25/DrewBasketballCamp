@@ -24,6 +24,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
     </script>
+      <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/program.css">
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="./CSS/mediaqueries.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>DBC</title>
     <link rel="icon" type="image/png" href="images/Basketaball-logo.png">
@@ -76,73 +82,65 @@
 
     </nav>
     <!-- Registration -->
-    <main >
-    <section class="p-5 main reg-section px-2 py-5">
-        <div class="container register p-5 ">
+    <main>
+        <section class="p-5 main reg-section px-2 py-5">
+            <div class="container register p-5 ">
 
-            <div class="row register-row p-5">
-                <h1 class="h1 text-center mb-3">Register Here</h1>
-                <div class="mb-3 col-lg-4">
-                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mark">
+                <div class="row register-row p-5">
+                    <h1 class="h1 text-center mb-3">Register Here</h1>
+                    <div class="mb-3 col-lg-4">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mark">
+                    </div>
+                    <div class="mb-3 col-lg-4">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Caguioa">
+                    </div>
+                    <div class="mb-3 col-lg-4">
+                        <label for="exampleFormControlInput1" class="form-label">Age</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="24">
+                    </div>
+                    <div class="mb-3 col-lg-4">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3 col-lg-4">
+                        <label for="exampleFormControlInput1" class="form-label">Camp</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose a Camp </option>
+                            <option value="1">Kid's Camp(Ages 8-12)</option>
+                            <option value="2">Teen Camp(Ages 13-18)</option>
+                            <option value="3">Adults Camp(Ages 19 and above)</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-lg-4">
+                        <label for="exampleFormControlInput1" class="form-label">Camp Venue</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose a Camp near you </option>
+                            <option value="1">Drew Basketball Court (BGC,Taguig)</option>
+                            <option value="2">Pasig Arena (Ortigas Center,Pasig)</option>
+                            <option value="3">Pampanga Arena(Macabebe,Pampanga)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-large btn-danger">Submit</button>
+                    </div>
                 </div>
-                <div class="mb-3 col-lg-4">
-                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Caguioa">
-                </div>
-                <div class="mb-3 col-lg-4">
-                    <label for="exampleFormControlInput1" class="form-label">Age</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="24">
-                </div>
-                <div class="mb-3 col-lg-4">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="mb-3 col-lg-4">
-                    <label for="exampleFormControlInput1" class="form-label">Camp</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Choose a Camp </option>
-                        <option value="1">Kid's Camp(Ages 8-12)</option>
-                        <option value="2">Teen Camp(Ages 13-18)</option>
-                        <option value="3">Adults Camp(Ages 19 and above)</option>
-                    </select>
-                </div>
-                <div class="mb-3 col-lg-4">
-                    <label for="exampleFormControlInput1" class="form-label">Camp Venue</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Choose a Camp near you </option>
-                        <option value="1">Drew Basketball Court (BGC,Taguig)</option>
-                        <option value="2">Pasig Arena (Ortigas Center,Pasig)</option>
-                        <option value="3">Pampanga Arena(Macabebe,Pampanga)</option>
-                    </select>
-                </div>
-                <div>
-                    <button type="submit" class="btn btn-large btn-danger">Submit</button>
-                </div>
-
-
-
-
-
-
             </div>
 
-
-        </div>
-
-        </div>
-    </section>
+            </div>
+        </section>
     </main>
     <!-- footer -->
-     <section class="main p-5">
-       <footer class="p-5 text-dark-gray position-relative">
-        <div class="container text-center p-5">
-            <p class="lead  ">Copyright &copy; 2022 DrewBasketball Camp</p>
-           
-        </div>
-    </footer>
-  </section>
+    <section class="main p-5">
+        <footer class="p-5 text-dark-gray position-relative">
+            <div class="container text-center p-5">
+                <p class="lead  ">Copyright &copy; 2022 DrewBasketball Camp</p>
+
+            </div>
+        </footer>
+    </section>
 
 </body>
 

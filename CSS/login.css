@@ -1,0 +1,21 @@
+
+.log-in-row {
+    box-shadow: 12px 12px 22px grey;
+    border-radius: 30px;
+    background-color: #FAF5EF;
+
+}
+.log-in-row img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.btn1{
+    padding:.5rem 1rem;
+    background-color:#dc3545;
+    color: #fff;
+    width:100%;
+}
