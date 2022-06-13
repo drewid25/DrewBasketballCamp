@@ -20,9 +20,7 @@ h1{
 .main {
    background-color: #FAF5EF;
 }
-.hero{
-    height:100vh;
-}
+
 .hero-title {
     text-transform: uppercase;
     letter-spacing: 0.5;
